@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.nav-bar{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #7c8852;
+}
+#mode{
+    border: 1px solid #e7992c;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #e0a6a6;
+}
+#headi,#mode:hover{
+    cursor:pointer;
+}
+.darkmode{
+    background-color: #3b3b39;
+}
+.container{
+    height: 87vh;
+    width: 100%;
+    
+}
+.main1{
+    width: 500px;
+
+    background-color: #c2c0ae;
+    border-radius: 1rem;
+    min-height:100px;
+    gap: 1rem;
+    padding-top:10px ;
+    position: absolute;
+    top: 10rem;
+    left: 25rem;
+}
+.main3{
+    display: flex;
+        justify-content: center;
+        margin: 10px;
+}
+#text{
+    outline: none;
+    border: 0.1rem solid #e7992c ;
+    padding: 10px;
+    border-radius: 1rem;
+}
+.add{
+    border: 1px solid #e7992c;
+    width: min-content;
+    height: min-content;
+    padding: 9px;
+    border-radius: 2rem;
+}
+.add,#mode:hover{
+    cursor: pointer;
+}
+.main2{
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin: auto;
+}
+.btn{
+    float: right;
+    margin: 3px;
+    border-radius: 1rem;
+    border: 1px solid #e7992c;
+    cursor: pointer;
+}
